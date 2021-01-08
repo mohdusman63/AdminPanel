@@ -177,7 +177,7 @@ const AdminProduct = () => {
                                     <Form.Control
                                       as="select"
                                       onChange={selectHandler}
-                                    >
+                                    > <option>Choose Catogry</option>
                                       {category.map((element, index) => (
                                         <option
                                           style={{ color: "dark" }}
